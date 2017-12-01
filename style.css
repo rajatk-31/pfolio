@@ -10,7 +10,7 @@ header{
 	color: white;
 	background-color:black;
 	padding: 8px 0px 6px 40px;
-	height: 40px;
+	height: 50px;
 	width: 100%;
 	position: fixed;
 
@@ -30,12 +30,15 @@ header h1{
 }
 nav ul{
 	display:inline;
-	float: left;
+	float: right;
+  margin-right: 20px;
 }
 nav ul li{
 	display:inline-block;
 	list-style-type: none;
 	float: left;
+  padding-right: 3px;
+  padding-top: 10px;
 }
 nav ul li a{
 	color: white;
@@ -81,7 +84,7 @@ nav ul li a{
 	cursor: default;
 }
 .fimage{
-  background-image: url(http://stockpictures.io/wp-content/uploads/2017/03/office-work-business-worskpace-table-desk-gadgets-technology-tablet-computer-holder-pens-pencils-cutouts-mock-samples-clips-journal-notebook-portfolio-cube-photoshop-still-bokeh.jpg);
+  background-image: url(https://i1.wp.com/maggiofilmsacademy.com/wp-content/uploads/2016/09/ET13T3T5A9.jpg);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -311,6 +314,7 @@ input {
     position: relative;
     z-index: 9999;
 }
+
 .us{
 	background-image: url(https://static1.squarespace.com/static/57b9d0d12e69cf77507e7e8e/57d72e71ebbd1a24f2832ddc/57d72e72893fc09c336e6cbb/1476378042460/team-background.jpg);
 	background-size: cover;
